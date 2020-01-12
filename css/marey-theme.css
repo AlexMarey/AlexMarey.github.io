@@ -1,3 +1,7 @@
 .section-margins {
   margin: 3em 0;
 }
+
+.connect-header--fixedWidth {
+  width: 225px;
+}
