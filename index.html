@@ -15,11 +15,15 @@
   </head>
 
   <body>
-    <div class="container-sm">
-      <section id="Bio">
-        <!-- Image Here -->
-        <h1>Alex Marey</h1>
-        <p>
+    
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="jumbotron-header--text"><em>Hi, I'm Alex.</em></h1>
+        </div>
+      </div>
+      <div class="container-sm">
+      <section id="Bio" class="py-4">
+        <p class="bio-desc--width">
           I am a full stack software developer who values user centered design.
           In my daily work, I implement best practices to create responsive
           applications. I am constantly trying to learn new techniques to
@@ -29,11 +33,11 @@
       </section>
 
       <section id="Projects" class="py-4">
-        <h3>Projects</h3>
+        <h3 class="project-title--center">Projects</h3>
         <div class="row pt-2">
-          <img src="./img/project-placeholder-img.png" alt="Fantasy Football and Python logos" class="col-md-4 col-sm-12"/>
-          <div class="col-md-8 col-sm-12">
-            <h5>Fantasy Football Assistant Coach</h5>
+          <img src="./img/project-placeholder-img.png" alt="Fantasy Football and Python logos" class="col-md-4 col-xs-12 project-image"/>
+          <div class="offset-md-1 col-md-7 col-sm-12">
+            <h5 class="project-header--pad">Fantasy Football Assistant Coach</h5>
             <p>
               The Fantasy Football Assistant Coach is a Python 3.6 web scraper 
               and data analyzer. It helps a fantasy football coach moderate 
@@ -45,30 +49,29 @@
       </section>
 
       <section id="Hobbies" class="py-4">
-        <h3>Hobbies</h3>
+        <h3 class="hobby-title">Hobbies</h3>
         <div class="row">
-          <div class="col-md-3 col-sm-12">
+          <div class="col-md-3 col-sm-6 col-xs-12 hobby-item">
             <i class="fas fa-3x fa-chess mx-auto hobbies-fa--centered"></i>
-            <h5 class="mx-auto hobbies-bg--fixedWidth">Board Games</h5>
+            <h5 class="hobby-name">Board Games</h5>
           </div>
-          <div class="col-md-3 col-sm-12">
+          <div class="col-md-3 col-sm-6 col-xs-12 hobby-item">
             <i class="fas fa-3x fa-volleyball-ball mx-auto hobbies-fa--centered"></i>
-            <h5 class="mx-auto hobbies-sv--fixedWidth">Sand Volleyball</h5>
+            <h5 class="hobby-name">Sand Volleyball</h5>
           </div>
-          <div class="col-md-3 col-sm-12">
+          <div class="col-md-3 col-sm-6 col-xs-12 hobby-item">
             <i class="fas fa-3x fa-gamepad mx-auto hobbies-faWide--centered"></i>
-            <h5 class="mx-auto hobbies-ssb--fixedWidth">Super Smash Bros.</h5>
-            <h5 class="mx-auto hobbies-ult--fixedWidth">Ultimate</h5>
+            <h5 class="hobby-name">Super Smash Bros. Ultimate</h5>
           </div>
-          <div class="col-md-3 col-sm-12">
+          <div class="col-md-3 col-sm-6 col-xs-12 hobby-item">
             <i class="fas fa-3x fa-camera-retro mx-auto hobbies-fa--centered"></i>
-            <h5 class="mx-auto hobbies-ph--fixedWidth">Photography</h5>
+            <h5 class="hobby-name">Photography</h5>
           </div>
         </div>
       </section>
 
       <section id="Connect" class="py-4">
-        <h3 class="mx-auto connect-header--fixedWidth">Connect With Me</h3>
+        <h3 class="connect-title">Connect With Me</h3>
         <!-- <img src="img/gmail-icon.png"/>
         <img src="img/linkedin-icon.png"/> -->
       </section>

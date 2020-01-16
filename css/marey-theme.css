@@ -1,6 +1,6 @@
 /* The following rules are used so that we can use 'mx-auto' to horizontally center the elements */
-.connect-header--fixedWidth {
-  width: 225px;
+.connect-title {
+  text-align: center;
 }
 
 .hobbies-fa--centered {
@@ -13,24 +13,104 @@
   display: block !important;
 }
 
-.hobbies-bg--fixedWidth {
-  width: 120px;
+.bio-desc--width {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.hobbies-sv--fixedWidth {
-  width: 140px;
+.project-title--center {
+  text-align: center;
 }
 
-.hobbies-ssb--fixedWidth {
-  width: 166px;
+.hobby-title {
+  padding-bottom: 1em;
+  text-align: center;
 }
 
-.hobbies-ult--fixedWidth {
-  width: 78px;
-}
-
-.hobbies-ph--fixedWidth {
-  width: 120px;
+.hobby-name {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* End of rules created for 'mx-auto' */
+
+/* 
+Sm: min-width: 576px
+Md: min-width: 768px
+Lg: min-width: 992px
+Ex-Lg: min-width: 1200px
+ */
+
+/* Mobile Tags */
+@media (max-width: 576px) {
+  .project-image {
+    width: 75%;
+    height: 75%;
+    /* Centers the image */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project-header--pad {
+    padding: 1em 0 0.5em 0;
+  }
+}
+
+@media (min-width: 577px) {
+  .project-image {
+    width: 75%;
+    height: 75%;
+    /* Centers the image */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project-header--pad {
+    padding: 1em 0 0.5em 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-image {
+    width: 100%;
+    height: 100%;
+    /* Centers the image */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project-header--pad {
+    padding: 0.25em 0 0.5em 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .project-image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .project-header--pad {
+    padding: 0.5em 0 0.5em 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .hobby-item {
+    padding-bottom: 2em;
+  }
+}
+
+.jumbotron {
+  background-image: url("../img/Alex_Barcelona_RibCage.jpg");
+  background-size: cover;
+  height: 980px;
+}
+
+.jumbotron-header--text {
+  color: white;
+  font-size: 72px;
+  text-align: left;
+}
